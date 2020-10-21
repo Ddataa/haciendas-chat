@@ -1,5 +1,6 @@
 
-haciendas chat
+# ipfs chat for Haciendas
+based on https://medium.com/textileio/build-a-decentralized-chat-app-with-knockout-and-ipfs-fccf11e8ce7b
 
 # Texile's IPFS ĐApp Template
 
