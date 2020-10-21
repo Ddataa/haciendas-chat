@@ -1,5 +1,5 @@
-
-haciendas chat
+# ipfs chat for Haciendas
+based on https://medium.com/textileio/build-a-decentralized-chat-app-with-knockout-and-ipfs-fccf11e8ce7b
 
 # Texile's IPFS ĐApp Template
 
@@ -26,3 +26,4 @@ Add to ipfs via `ipfs add -r dist/`
 ### Thanks
 
 Based on the excellent [`ipfs-peer-map-example`](https://github.com/tableflip/ipfs-peer-map-example) from [tableflip.io](https://tableflip.io).
+
