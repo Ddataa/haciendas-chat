@@ -19,10 +19,9 @@ export default function Chat ({
   const sendMessage = async () => {
     setMessage('')
     if (!message) return
-    // Check for commands before sending the message
-    // Just return early if a command was found
+
     if (chatClient.checkCommand(message)) return
-    // No commands, send the message!
+
     try {
       await chatClient.send(message)
       console.info('Publish done')
