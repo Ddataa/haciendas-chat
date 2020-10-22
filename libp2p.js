@@ -20,7 +20,7 @@ const createLibp2p = async (peerId) => {
     addresses: {
       listen: [
         // Add the signaling server multiaddr
-        '/ip4/51.15.203.121/tcp/15555/wss/p2p-webrtc-star'
+        '/dns4/haciendas.ddataa.org/tcp/443/wss/p2p-webrtc-star/'
       ]
     },
     modules: {
@@ -34,7 +34,7 @@ const createLibp2p = async (peerId) => {
     config: {
       peerDiscovery: {
         bootstrap: {
-          list: ['/ip4/51.15.203.121/tcp/15555/wss/p2p-webrtc-star/p2p/QmWjz6xb8v9K4KnYEwP5Yk75k5mMBCehzWFLCvvQpYxF3d']
+          list: ['/dns4/haciendas.ddataa.org/tcp/443/wss/p2p-webrtc-star/p2p/QmWjz6xb8v9K4KnYEwP5Yk75k5mMBCehzWFLCvvQpYxF3d']
         }
       },
       dht: {
